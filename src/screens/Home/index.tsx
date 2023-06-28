@@ -1,5 +1,7 @@
 import { Text, View, TextInput, TouchableOpacity } from "react-native";
 
+import { Participant } from "../../components/Participant";
+
 import { styles } from "./styles";
 
 export function Home() {
@@ -18,6 +20,7 @@ export function Home() {
       <Text key="2" style={styles.eventDate}>
         Sexta 14 de Dezembro de 2023.
       </Text>
+
       <View style={styles.form}>
           <TextInput 
             style={styles.input}
@@ -31,6 +34,10 @@ export function Home() {
             </Text>
           </TouchableOpacity>
       </View>
+
+      <Participant />
+      <Participant />
+      <Participant />
     </View>
   ) 
 }

@@ -38,7 +38,7 @@ export const styles = StyleSheet.create({
     },
 
     button:{
-      backgroundColor: '#A370F7',
+      backgroundColor: '#00FF7F',
       height: 56,
       width: 56,
       borderRadius: 5,
@@ -52,5 +52,11 @@ export const styles = StyleSheet.create({
       flexDirection: 'row',
       marginTop: 36,
       marginBottom: 42,
+    },
+
+    listEmptyText:{
+      color: '#FDFCFE',
+      fontSize: 14,
+      textAlign: 'center',
     },
 });
